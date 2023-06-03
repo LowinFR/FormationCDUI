@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="StyleSI.css">
+<body>
+    <header>
+        <img src="Ressources/Logo V2 Clair@0.5x.png" alt="Logo" width="50" height="50">
+        <div>
+            <a href="Accueil.html">Accueil</a>
+            <a href="#">Produits</a>
+            <a href="#">À propos</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+        <button onclick="window.location.href='contact.html'">Button</button>
+    </header>
+<br>
+    <form>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+        
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required>
+        
+        <label for="genre">Genre :</label>
+        <select id="genre" name="genre" required>
+            <option value="homme">Homme</option>
+            <option value="femme">Femme</option>
+            <option value="autre">Autre</option>
+        </select>
+        
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" readonly required></textarea>
+        
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>
